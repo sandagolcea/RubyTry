@@ -1,5 +1,13 @@
 test
 ====
 
-this is a test repo to explore working with github.
-The exercises in this test repo are the ones from the Lynda Ruby Essentials walkthrough. There might be other exercises.
+This is a test repo to explore working with github and with Ruby.
+In the folders you can find as follows:
+
+/static 
+The doc files in this test repo are partly from following along Lynda Ruby Essentials.
+
+/practice
+Just exercise files for my own purpose.
+The are also exercises following along with CodeSchool curricula
+
