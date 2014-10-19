@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :tweets
+
   resources :weapons
 
   resources :zombies

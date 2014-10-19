@@ -3,6 +3,7 @@
 #Create new rails application using : 
 $ rails new zombieRails
 
+
 #Create MVC components for zombies and tweets (model db):
 $ rails generate scaffold zombie name:string graveyard:text
 $ rails generate scaffold weapon name:string strength:integer zombie_id:integer
@@ -12,3 +13,10 @@ $ rake db:migrate
 
 #List all URLs recognized by zombieRails atm:
 $ rake routes
+
+#Start Rails Server
+$ rails server
+
+#To load the Ruby console (not just the irb, but also the environment):
+$ rails console
+
