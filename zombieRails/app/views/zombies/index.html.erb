@@ -21,7 +21,21 @@
     <% end %>
   </tbody>
 </table>
+	
+	<% zombies = Zombie.all %>
+	<ul>
+	  <% zombies.each do |zombie| %>
 
+	      <% if zombie.tweets.count > 1 %>
+	      <li>
+	        <%= zombie.name %>
+			<em>SMART ZOMBIE</em>
+	      </li>
+		  <% end %>
+	     
+	  <% end %>
+	</ul>
+	
 <br>
 
 <%= link_to 'New Zombie', new_zombie_path %>

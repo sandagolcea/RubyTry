@@ -5,6 +5,15 @@ Rails.application.routes.draw do
 
   resources :zombies
 
+  #redirect from undead to zombies
+  #get '/undead' => redirect('/zombies') #pay attention to that space, you tend to let it out
+  
+  #create a root route
+  #root to: "zombies#index"
+  
+  #create a named route. It should generate a path like '/zombies/:name' where :name is a parameter, and points to the index action in ZombiesController. Name the route 'graveyard'
+  #get '/zombies/:name', to: 'zombies#index', :as => 'graveyard'
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
